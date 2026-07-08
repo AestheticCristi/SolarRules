@@ -1,0 +1,158 @@
+/* Resetare și design de bază */
+/* Stil automat pentru logo în toate paginile */
+.regulament-container img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 30px auto; /* Spațiu mai mare jos */
+    border: 3px solid #ffcc00; /* Border galben solar */
+    border-radius: 12px;       /* Colțuri rotunjite fin */
+    padding: 8px;              /* Spațiu între imagine și ramă */
+    background-color: #16161a; /* Fundal de contrast */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Efect de umbră discret */
+    transition: transform 0.3s ease;
+}
+
+/* Efect vizual la hover pe logo */
+.regulament-container img:hover {
+    transform: scale(1.05); /* Zoom ușor la trecerea mouse-ului */
+    border-color: white;    /* Border-ul devine alb la hover */
+}
+body {
+    background-color: #0b0b0d;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.regulament-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Stil automat pentru LOGO cu border */
+.regulament-container img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 30px auto;
+    border: 3px solid #ffcc00;
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #16161a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.regulament-container img:hover {
+    transform: scale(1.05);
+    border-color: white;
+}
+
+/* Titluri */
+.titlu-panou {
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 25px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Stil carduri de navigare */
+.sectiune-card {
+    display: block;
+    background-color: #16161a;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #ffcc00;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.sectiune-card:hover {
+    background-color: #202026;
+    border-left: 15px solid #ffcc00;
+    padding-left: 30px;
+}
+
+/* Box-uri reguli */
+.continut-box {
+    background-color: #16161a;
+    padding: 30px;
+    border-radius: 4px;
+    border-top: 3px solid #ffcc00;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.continut-box h2 {
+    color: #ffcc00;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.back-link {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+/* Stil Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+    color: #666;
+    font-size: 13px;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.social-links a:hover {
+    color: white;
+}
+body {
+    /* Setează imaginea ca fundal */
+    background-image: url('assets/SoLar_Team_edited.jpg');
+    background-size: cover;          /* Imaginea ocupă tot ecranul */
+    background-position: center;     /* Centrată */
+    background-attachment: fixed;    /* Fundalul rămâne fix când dai scroll */
+    background-repeat: no-repeat;
+    
+    /* Păstrează restul setărilor tale */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Facem containerele ușor transparente pentru a vedea fundalul prin ele */
+.regulament-container, .continut-box {
+    background-color: rgba(11, 11, 13, 0.85) !important; /* Fundal negru cu 85% opacitate */
+    border-radius: 12px;
+}
